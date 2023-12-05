@@ -1,7 +1,8 @@
-package com.partice.shopwebapi.mapper;
+package com.pratice.shopwebapi.mapper;
 
-import com.partice.shopwebapi.entity.Category;
+import com.pratice.shopwebapi.entity.Category;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.springframework.stereotype.Component;
 
 /**
  * <p>

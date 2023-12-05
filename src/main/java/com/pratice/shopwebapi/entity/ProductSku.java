@@ -1,4 +1,4 @@
-package com.partice.shopwebapi.entity;
+package com.pratice.shopwebapi.entity;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;

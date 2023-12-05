@@ -1,4 +1,4 @@
-package com.partice.shopwebapi.controller;
+package com.pratice.shopwebapi.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

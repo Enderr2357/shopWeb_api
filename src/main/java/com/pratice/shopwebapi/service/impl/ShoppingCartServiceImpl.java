@@ -1,8 +1,8 @@
-package com.partice.shopwebapi.service.impl;
+package com.pratice.shopwebapi.service.impl;
 
-import com.partice.shopwebapi.entity.ShoppingCart;
-import com.partice.shopwebapi.mapper.ShoppingCartMapper;
-import com.partice.shopwebapi.service.ShoppingCartService;
+import com.pratice.shopwebapi.entity.ShoppingCart;
+import com.pratice.shopwebapi.mapper.ShoppingCartMapper;
+import com.pratice.shopwebapi.service.ShoppingCartService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

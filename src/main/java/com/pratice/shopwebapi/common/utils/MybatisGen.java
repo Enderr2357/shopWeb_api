@@ -32,7 +32,7 @@ public class MybatisGen {
 
                 })
                 .packageConfig(builder -> {
-                    builder.parent("com.partice") // 设置父包名
+                    builder.parent("com.pratice") // 设置父包名
                             .moduleName("shopwebapi") // 设置父包模块名
                             .pathInfo(outputFileStringMap);
                     // 设置mapperXml生成路径

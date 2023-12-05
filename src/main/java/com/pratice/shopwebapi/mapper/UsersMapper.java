@@ -1,6 +1,6 @@
-package com.partice.shopwebapi.mapper;
+package com.pratice.shopwebapi.mapper;
 
-import com.partice.shopwebapi.entity.Users;
+import com.pratice.shopwebapi.entity.Users;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

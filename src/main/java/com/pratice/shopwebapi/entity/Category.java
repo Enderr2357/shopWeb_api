@@ -1,4 +1,4 @@
-package com.partice.shopwebapi.entity;
+package com.pratice.shopwebapi.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -31,10 +31,7 @@ public class Category {
     @TableField("category_name")
     private String categoryName;
 
-    @ApiModelProperty("分类层级 分类得类型，
-1:一级大分类
-2:二级分类
-3:三级小分类")
+    @ApiModelProperty("分类层级 分类得类型， 1:一级大分类 2:二级分类 3:三级小分类")
     @TableField("category_level")
     private Integer categoryLevel;
 

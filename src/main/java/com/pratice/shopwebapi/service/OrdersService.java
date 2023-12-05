@@ -1,6 +1,6 @@
-package com.partice.shopwebapi.service;
+package com.pratice.shopwebapi.service;
 
-import com.partice.shopwebapi.entity.Orders;
+import com.pratice.shopwebapi.entity.Orders;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

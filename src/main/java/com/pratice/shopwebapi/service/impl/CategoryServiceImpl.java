@@ -1,8 +1,8 @@
-package com.partice.shopwebapi.service.impl;
+package com.pratice.shopwebapi.service.impl;
 
-import com.partice.shopwebapi.entity.Category;
-import com.partice.shopwebapi.mapper.CategoryMapper;
-import com.partice.shopwebapi.service.CategoryService;
+import com.pratice.shopwebapi.entity.Category;
+import com.pratice.shopwebapi.mapper.CategoryMapper;
+import com.pratice.shopwebapi.service.CategoryService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,8 @@
-package com.partice.shopwebapi.service.impl;
+package com.pratice.shopwebapi.service.impl;
 
-import com.partice.shopwebapi.entity.IndexImg;
-import com.partice.shopwebapi.mapper.IndexImgMapper;
-import com.partice.shopwebapi.service.IndexImgService;
+import com.pratice.shopwebapi.entity.IndexImg;
+import com.pratice.shopwebapi.mapper.IndexImgMapper;
+import com.pratice.shopwebapi.service.IndexImgService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2023-12-05
  */
 @Service
-public class IndexImgServiceImpl extends ServiceImpl<IndexImgMapper, IndexImg> implements IndexImgService {
+public class IndexImgServiceImpl extends ServiceImpl<IndexImgMapper, IndexImg> implements com.pratice.shopwebapi.service.IndexImgService {
 
 }

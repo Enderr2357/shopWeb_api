@@ -1,8 +1,8 @@
-package com.partice.shopwebapi.service.impl;
+package com.pratice.shopwebapi.service.impl;
 
-import com.partice.shopwebapi.entity.UserLoginHistory;
-import com.partice.shopwebapi.mapper.UserLoginHistoryMapper;
-import com.partice.shopwebapi.service.UserLoginHistoryService;
+import com.pratice.shopwebapi.entity.UserLoginHistory;
+import com.pratice.shopwebapi.mapper.UserLoginHistoryMapper;
+import com.pratice.shopwebapi.service.UserLoginHistoryService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

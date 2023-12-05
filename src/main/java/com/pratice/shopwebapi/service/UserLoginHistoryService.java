@@ -1,6 +1,6 @@
-package com.partice.shopwebapi.service;
+package com.pratice.shopwebapi.service;
 
-import com.partice.shopwebapi.entity.UserLoginHistory;
+import com.pratice.shopwebapi.entity.UserLoginHistory;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
