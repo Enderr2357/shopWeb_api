@@ -8,6 +8,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -19,8 +20,8 @@ import lombok.Setter;
  * @author ender2357
  * @since 2023-12-05
  */
-@Getter
-@Setter
+
+@Data
 @TableName("users")
 @ApiModel(value = "Users对象", description = "用户 ")
 public class Users {
@@ -72,4 +73,6 @@ public class Users {
     @ApiModelProperty("更新时间 更新时间")
     @TableField("user_modtime")
     private LocalDateTime userModtime;
+
+
 }

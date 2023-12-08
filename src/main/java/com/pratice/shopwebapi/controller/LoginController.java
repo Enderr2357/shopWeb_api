@@ -1,17 +1,25 @@
 package com.pratice.shopwebapi.controller;
 
 import com.pratice.shopwebapi.common.result.Result;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.pratice.shopwebapi.entity.vo.UserVo;
+import com.pratice.shopwebapi.service.UsersService;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 
 @RestController
+@Slf4j
 @RequestMapping("/login")
 public class LoginController {
 
-    @GetMapping()
-    public Result<String> login() {
-        return Result.ok("模拟登录成功");
+
+    @Autowired
+    private UsersService usersService;
+
+    @PostMapping()
+    public void login(@RequestBody UserVo userVo) {
+        log.info("前端传回来:{}",userVo);
+        usersService.login(userVo);
     }
 }
